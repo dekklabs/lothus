@@ -1,7 +1,7 @@
-# lothus theme for wordpress
+# Lothus theme for wordpress
 
 ## Install
 - npm install
 
 ## Using
-* Using watch.bat por build webpack
+* watch.bat compile

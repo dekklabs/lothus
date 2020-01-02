@@ -8,11 +8,7 @@ class App {
     }
 
     init() {
-        this.hola();
-    }
-
-    hola() {
-        console.log('dsfsdfsd');
+        console.log('work')
     }
 }
 

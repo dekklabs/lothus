@@ -3,8 +3,9 @@ const webpackDevServer = require('webpack-dev-server');
 const webpack = require('webpack');
 const fs = require('fs');
 
-const URL = 'https://testwordpress.dev';
-const HOST = 'testwordpress.dev';
+const URL = 'https://lothus.dev';
+
+const HOST = 'lothus.dev';
 
 const config = require('./webpack.config.dev.js');
 const options = {

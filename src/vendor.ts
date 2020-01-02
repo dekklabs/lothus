@@ -1,5 +1,3 @@
-
-
 //window._ = require('lodash');
 try {
     //@ts-ignore
@@ -9,16 +7,16 @@ try {
     require('bootstrap');
 } catch (e) {}
 
-import 'jquery-lazyload';
+// import 'jquery-lazyload';
 
-import 'slick-carousel';
-import 'optiscroll';
+// import 'slick-carousel';
+// import 'optiscroll';
 //import 'swiper';
 //require('swiper/js/swiper.esm.js');
 
-import './libs/bootstrapvalidator/dist/js/bootstrapValidator.js';
+// import './libs/bootstrapvalidator/dist/js/bootstrapValidator.js';
 
-import 'intl-tel-input/build/js/intlTelInput-jquery.min.js';
+// import 'intl-tel-input/build/js/intlTelInput-jquery.min.js';
 
 
 

@@ -9,13 +9,9 @@ const MinifyPlugin = require("babel-minify-webpack-plugin");
 
 const devMode = true;
 
-const URL = "https://testwordpress.dev";
+const URL = "https://lothus.dev";
 
 module.exports = {
-    /*entry: {
-        vendor: './src/vendor.js',
-        app: './src/index.js'
-    },*/
     entry: [
         'webpack-dev-server/client?' + URL + ':5001',
         './src/index.ts'
@@ -28,12 +24,6 @@ module.exports = {
     },
     devtool: 'inline-source-map',
     mode: 'development',
-    /*optimization: {
-        splitChunks: {
-            chunks: 'all',
-            filename: 'head'
-        }
-    },*/
     module: {
         rules: [{
                 test: /\.js$/,
@@ -86,16 +76,6 @@ module.exports = {
                     }
                 }]
             },
-            /*{
-                test: /\.json$/,
-                use: [{
-                    loader: 'file-loader',
-                    options: {
-                        publicPath: URL ':5001/',
-                        useRelativePaths: true
-                    }
-                }]
-            }*/
         ]
     },
     devServer: {

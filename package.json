@@ -27,7 +27,7 @@
         "popper.js": "^1.15.0",
         "slick-carousel": "^1.8.1",
         "sweetalert2": "^8.12.1",
-        "swiper": "^5.0.4",
+        "swiper": "^6.5.1",
         "toastr": "^2.1.4",
         "underscore": "^1.9.1"
     },
